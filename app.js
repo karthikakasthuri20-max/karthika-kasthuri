@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
 // Route 2: About page
 app.get('/about', (req, res) => {
     res.status(200).json({
-        name: 'Your Full Name',
-        section: 'Your Section'
+        name: 'Karthika kasthuri',
+        section: 'AIDE-2A'
     });
 });
 
